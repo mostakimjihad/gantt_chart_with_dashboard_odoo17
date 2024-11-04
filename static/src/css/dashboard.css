@@ -1,0 +1,90 @@
+.modern-card {
+        background: linear-gradient(45deg, #FFC371, #FF5F6D); /* Modern color gradient */
+        color: white;
+        border-radius: 15px;
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        transition: transform 0.3s;
+    }
+    .modern-card:hover {
+        transform: translateY(-10px); /* Add hover effect */
+    }
+    .modern-card-icon {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .modern-card-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .modern-card-count {
+        font-size: 24px;
+        font-weight: 300;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .modern-card:nth-child(odd) {
+        background: linear-gradient(45deg, #5D54A4, #CBBACC); /* Different gradient for odd cards */
+    }
+
+
+
+/* Custom styles for the input group */
+.modern-input-group {
+    background-color: #ffffff !important; /* White background for input group */
+    border: 1px solid #e0e0e0 !important; /* Light gray border */
+    border-radius: 8px !important;
+    overflow: hidden !important; /* To keep corners rounded */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Soft shadow effect */
+    transition: box-shadow 0.3s ease !important; /* Smooth shadow transition */
+}
+
+/* Change shadow on hover */
+.modern-input-group:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15) !important; /* Darker shadow on hover */
+}
+
+/* Custom styles for the select dropdown */
+.modern-select {
+    border: 1px solid #007bff !important; /* Primary color border */
+    border-radius: 8px !important; /* Rounded corners */
+    height: 50px !important; /* Ensure consistent height */
+    transition: border-color 0.3s ease, background-color 0.3s ease !important; /* Smooth transitions */
+    background-color: #e9f7ff !important; /* Light blue background */
+    color: #333 !important; /* Dark text color for contrast */
+}
+
+/* Change border color and background on focus */
+.modern-select:focus {
+    border-color: #0056b3 !important; /* Darker primary color on focus */
+    background-color: #ffffff !important; /* Change to white on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5) !important; /* Add shadow on focus */
+}
+
+/* Style for the label */
+label {
+    margin-right: 10px !important; /* Space between label and dropdown */
+    font-weight: 600 !important; /* Make label slightly bolder */
+    color: #343a40 !important; /* Darker text color */
+}
+
+/* Style for options */
+.modern-select option {
+    padding: 10px !important; /* Add some padding to options */
+    background-color: #ffffff !important; /* White background for options */
+    color: #333 !important; /* Dark text color for options */
+}
+
+/* Hover effect for options */
+.modern-select option:hover {
+    background-color: #007bff !important; /* Blue background on hover */
+    color: white !important; /* White text color on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .modern-input-group {
+        width: 100% !important; /* Full width on smaller screens */
+    }
+}
